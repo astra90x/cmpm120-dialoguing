@@ -1,11 +1,11 @@
 class Title extends Phaser.Scene {
     constructor() {
-        super("titleScene")
+        super('titleScene')
     }
 
     preload() {
         // load assets
-        this.load.path = "./assets/"
+        this.load.path = './assets/'
 
         // load JSON (ie dialog text)
         this.load.json('dialog', 'json/dialog.json')
@@ -32,8 +32,8 @@ class Title extends Phaser.Scene {
 
     update() {
         // wait for player input
-        if(Phaser.Input.Keyboard.JustDown(cursors.space)) {
-            this.scene.start("talkingScene")
+        if (Phaser.Input.Keyboard.JustDown(cursors.space)) {
+            this.scene.start('talkingScene')
         }
     }
 }

@@ -8,15 +8,14 @@
 
 // TO-DO: integrate the end-of-line fix from ourcade: https://blog.ourcade.co/posts/2020/phaser-3-typewriter-text-effect-bitmap/
 
-// BE STRIK
-"use strict"
+'use strict'
 
 // game config
 let config = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,
-    scene: [ Title, Talking ]
+    scene: [Title, Talking],
 }
 
 const game = new Phaser.Game(config)

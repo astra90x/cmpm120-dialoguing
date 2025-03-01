@@ -1,6 +1,17 @@
 [
     [
         {
+            "speaker": "nathan",
+            "dialog": "Good afternoon, class!",
+            "newSpeaker": true
+        },
+        {
+            "speaker": "nathan",
+            "dialog": "Today, we're going to be reading Homer's Odyssey."
+        }
+    ],
+    [
+        {
             "speaker": "homer",
             "dialog": "Tell me, O muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy.",
             "newSpeaker": true
@@ -8,6 +19,11 @@
         {
             "speaker": "minerva",
             "dialog": "OK but low key I'm not your muse lol",
+            "newSpeaker": true
+        },
+        {
+            "speaker": "nathan",
+            "dialog": "Wait that's not how it goes...",
             "newSpeaker": true
         },
         {
@@ -60,6 +76,17 @@
             "speaker": "minerva",
             "dialog": "If, then, the gods now mean that Ulysses should get home, we should first send Mercury to the Ogygian island to tell Calypso that we have made up our minds and that he is to return.",
             "newSpeaker": true
+        }
+    ],
+    [
+        {
+            "speaker": "nathan",
+            "dialog": "OK this is boring, I'd rather teach game dev.",
+            "newSpeaker": true
+        },
+        {
+            "speaker": "nathan",
+            "dialog": "Class over, you are all dismissed."
         }
     ]
 ]
